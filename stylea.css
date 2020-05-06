@@ -1,0 +1,275 @@
+
+#ind16
+{
+    width: 100%;
+    height: 6000px;
+    
+}
+
+
+#ini45
+{
+    width: 100%;
+    height: 600px;
+  
+    display: grid;
+    background-color: cornflowerblue;
+    position: relative;
+    animation-name: ejm;
+    animation-delay: 1s;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  
+}
+
+
+
+@media (min-width: 900px)
+{
+    #ini45
+{
+    width: 100%;
+    height: 1200px;
+    display: grid;
+    background-color: cornflowerblue;
+    position: relative;
+    animation-name: ejm;
+    animation-delay: 1s;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ 
+}
+}
+
+
+
+
+@keyframes ejm
+{
+ 0%
+    {
+    opacity: 1;
+   }
+
+ 25%
+    {
+    opacity: 0.5;
+    }
+    
+    
+   50%
+    {
+   opacity: 0.3;
+   }
+    
+
+100%
+    {
+ 
+    opacity: 0;
+    }
+}
+
+
+
+
+@media (min-width: 900px)
+{
+    
+@keyframes ejm
+{
+ 0%
+    {
+     opacity: 1;
+    }
+
+ 25%
+    {
+    
+    opacity: 0.5;
+    }
+    
+    
+   50%
+    {
+    opacity: 0.3;
+   }
+    
+
+100%
+    {
+    opacity: 0;
+    }
+}
+
+    
+    
+    
+}
+
+/*---------------------------------*/
+
+
+
+
+
+
+
+
+
+#ini45a
+{
+    width: 390px;
+    height: 600px;
+    opacity: 0.8;
+    position: relative;
+    top: -600px;
+    left:1px;
+    animation-name: ejm2;
+    *animation-delay: 8s;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+@media (min-width: 900px)
+{
+    
+    #ini45a
+{
+    width: 890px;
+    height: 1200px;
+    opacity: 0.8;
+    position: relative;
+    top: -1200px;
+    left:1px;
+    animation-name: ejm2;
+    *animation-delay: 8s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+}
+
+
+
+@keyframes ejm2
+{
+ 0%
+    {
+     opacity: 0.5;
+    }
+
+ 25%
+    {
+   opacity: 1;
+    }
+    
+    
+   50%
+    {
+    opacity: 0.8;
+    }
+    
+
+100%
+    {
+    opacity: 0;
+    }
+}
+
+
+
+@media (min-width: 900px)
+{
+    
+    
+@keyframes ejm2
+{
+ 0%
+    {
+     opacity: 0.5;
+     }
+
+ 25%
+    {
+   opacity: 1;
+    }
+    
+    
+   50%
+    {
+     opacity: 0.8;
+     }
+    
+
+100%
+    {
+     opacity: 0;
+    }
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ini46, #ini61
+{
+  
+    background-color: transparent;
+   
+    position: relative;
+    top: 0px;
+    left:1px;
+    animation-name: ini46;
+    animation-delay: 8s;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes ini46
+{
+ 0%
+    {
+     opacity: 0;
+    }
+
+ 25%
+    {
+     opacity: 0.5;
+    }
+    
+    
+   50%
+    {
+    opacity: 1;
+    }
+    
+
+100%
+    {
+     opacity: 0.6;
+    }
+}
+
+
+
+
+
