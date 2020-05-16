@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+
+
 
 *
 {
@@ -21,8 +25,8 @@ body
     padding: 0px;
     display: grid;
     grid-template-columns: auto;
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
+    *background: rgb(63,94,251);
+    *background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
     color: orange;
 }
 
@@ -195,15 +199,17 @@ body
 /*-------------------------------------*/
 /*------------------------------------*/
 /*------------------------------------*/
+
+
 .li09 a
 {
-    color:aliceblue;
+    color:dodgerblue;
     text-decoration: none;
-    
-    padding-top: 10px;
-    font-family: 'Nova Script', cursive;
+    font-size: 20px;
+    *padding-top: 10px;
+    *font-family: 'lato', sans-serif;
     line-height: 80px;
-  
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -211,23 +217,34 @@ body
 {
   .li09 a
     {
-    color:aliceblue;
-    font-size: 55px;
+    color:dodgerblue;
+    font-size: 75px;
     text-decoration: none;
- 
-font-family: 'Nova Script', cursive;
+    *font-family: 'lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 230px;
     }
    }
+
+
+
 /*-------------------------------------*/
 
 h1 {
     font-size: 72px; 
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text; 
-    
+    font-family: 'Source Sans Pro', sans-serif;
     -webkit-text-fill-color: transparent;
    }
+
+
+
+p
+{
+    font-family: 'lato', sans-serif;
+}
+
 
 
 /*------------------------------------*/
@@ -275,6 +292,46 @@ h1 {
     }
    }
 /*-------------------------------------*/
+
+
+#ini29
+{
+    height: 60px;
+    width: 60px;
+    border: 1px solid none;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1000; 
+    margin-left: -10%;
+    margin-top: -5px;
+    
+}
+
+
+@media (min-width: 900px)
+{
+    
+#ini29
+{
+    height: 200px;
+    width: 200px;
+    border: 1px solid none;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1000; 
+    margin-left: -6%;
+    margin-top: -70px; 
+    
+}
+
+    
+    
+}
+
+
+
+
+
 /*------------------------------------*/
 /*----------------------------------------------------*/
 /*------------------------------------*/
@@ -282,20 +339,11 @@ h1 {
 #uno1
 {
     
-    width: 220px;
+    width: 320px;
     height: 790px;
     
-    *background: rgb(63,94,251);
-    *background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(46,240,234,1) 100%);
-    
-    
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
-    
-    
-    
-   
-    border: 2px solid none;
+    background-color: lavender;
+    border: 2px solid green;
     border-radius: 5px;
     position: fixed;
     
@@ -312,19 +360,10 @@ h1 {
   #uno1
     {
     
-    width: 480px;
+    width: 780px;
     height: 2000px;
     
-    *background: rgb(63,94,251);
-    *background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(46,240,234,1) 100%);
-      
-        
-     background: rgb(63,94,251);
-     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);  
-        
-        
-        
-    *background-color: darkviolet;
+   background-color: lavender;
     border: 2px solid none;
     border-radius: 5px;
     position: fixed;
@@ -337,6 +376,9 @@ h1 {
     
     }
    }
+
+
+
 /*-------------------------------------*/
 /*-------------------------------------*/
 /*------------------------------------*/
