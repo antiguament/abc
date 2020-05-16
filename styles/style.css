@@ -41,7 +41,7 @@ body
     padding: 0px;
     display: grid;
     grid-template-columns: auto;
-   
+   background-color: none;
     color:gold;
     }
    }
